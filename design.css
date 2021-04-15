@@ -1,0 +1,83 @@
+*{
+    font-family: 'Candara';
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px;
+}
+#título{
+    background-color: rgb(3, 26, 61);
+    color: rgb(40, 12, 201);
+    padding: 10px 10px 10px 20px;
+    
+    
+}
+#container1{
+    width: 70%;
+    max-width: 100%;
+    margin: 10px auto;
+}
+#menu{
+    background-color: rgb(69, 58, 95);
+    text-align: center;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    display: inline;
+    text-transform: uppercase;  
+}
+#menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+    border-bottom: 2px solid rgb(53, 42, 42);
+    padding: 10px;
+}
+#menu ul li a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(72, 14, 126);
+    background-color:  rgb(255, 255, 255);
+}
+body {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: url(../img/background.jpeg) no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-color: rgb(255, 255, 255);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+footer
+{
+    border-top: 1px solid rgb(22, 22, 21);
+}
+.rounded-circle
+{
+    width: 50%;
+    height: 50%;
+}
+.carousel-inner img 
+{
+    width: 60%;
+    height: 60%;
+}
+.w3-center{text-align:center!important}
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:rgb(85, 6, 6)!important}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-opacity,.w3-hover-opacity:hover{opacity:0.60}.w3-opacity-off,.w3-hover-opacity-off:hover{opacity:1}
+w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
+.w3-section,.w3-code
+{   
+    margin-top:16px!important;
+    margin-bottom:16px!important;
+    
+}

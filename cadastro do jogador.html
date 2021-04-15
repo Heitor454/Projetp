@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Furmulário do jogador</title>
+    <link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <h1 class="title has-text-centered">Cadastro do jogador</h1>
+
+                            <form action="enviar.php" method="POST">
+                                <div class="field">
+                                    <label class="label">Nome
+                                        <input name="nome" class="input" type="text" placeholder="Nome do jogador">
+                                    </div>
+                                </div>
+                                   
+                                <div class="field">
+                                    <label class="label">Apelido
+                                        <input surname="apelido" class="input" type="text" placeholder="Apelido do jogador">
+                                    </div>
+                                </div>
+
+                                    <div class="field">
+                                        <label class="label">Ranque
+                                            <input rank="ranque" class="input" type="text" placeholder="Ranque do jogador">
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <label class="label">Ranque 2
+                                            <input rank2="ranque2" class="input" type="text" placeholder="Ranque 2 do jogador">
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <label class="label">Botão </label>
+                                        <div class="control">
+                                            <div class="select is-fullwidth">
+                                                <select name="Escolha">
+                                                    <option>Reportar o ranque</option>
+                                                    <option> apelido</option>
+                                                    <option> escolher o ranque </option>
+                                                    <option> escolher o ranque 2 </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <label class="label">Mensagem*</label>
+                                        <div class="control">
+                                            <textarea name="mensagem" class="textearea" placeholder="Deixe sua mensagem"
+                                            maxlength="2000"></textarea>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="field is-grpuped">
+                                        <div class="control">
+                                            <button class="button is-link is-medium">Enviar</button>
+                                        </div>
+                                    </div>
+                                </body>
+                                </html>
